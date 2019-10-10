@@ -11,6 +11,7 @@ import java.io.FileInputStream;
 //Parse a text document to create the dictionary for word occurrences method
 public class TrieDictionaryTrainer {
 	
+	//Adapt this for the web so that it can be utilized with any document loaded into the file reader, not just my local directory
 	File file = new File("C:\\Users\\CDubLaptop\\Downloads\\TestDocumentTrie.txt");
 	ArrayList<String> stringList = new ArrayList<String>();
 	
